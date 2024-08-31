@@ -1,0 +1,128 @@
+{
+  "summary": {
+    "total_tests": 87,
+    "passed_tests": 82,
+    "failed_tests": 5,
+    "total_duration": 145.32
+  },
+  "results_by_type": {
+    "unit_tests": [
+      {
+        "name": "Calculator - Addition",
+        "status": "passed",
+        "duration": 0.05,
+        "error_message": ""
+      },
+      {
+        "name": "Calculator - Subtraction",
+        "status": "passed",
+        "duration": 0.04,
+        "error_message": ""
+      },
+      {
+        "name": "Calculator - Multiplication",
+        "status": "passed",
+        "duration": 0.03,
+        "error_message": ""
+      },
+      {
+        "name": "Calculator - Division",
+        "status": "passed",
+        "duration": 0.06,
+        "error_message": ""
+      },
+      {
+        "name": "Calculator - Division by Zero",
+        "status": "passed",
+        "duration": 0.02,
+        "error_message": ""
+      }
+    ],
+    "e2e_tests": [
+      {
+        "name": "Calculator UI - Display",
+        "status": "passed",
+        "duration": 1.2,
+        "error_message": ""
+      },
+      {
+        "name": "Calculator UI - Button Clicks",
+        "status": "passed",
+        "duration": 2.5,
+        "error_message": ""
+      },
+      {
+        "name": "Calculator UI - Keyboard Input",
+        "status": "failed",
+        "duration": 1.8,
+        "error_message": "Timeout waiting for keyboard event to register"
+      }
+    ],
+    "cross_browser_tests": [
+      {
+        "name": "Chrome - Basic Operations",
+        "status": "passed",
+        "duration": 5.6,
+        "error_message": ""
+      },
+      {
+        "name": "Firefox - Basic Operations",
+        "status": "passed",
+        "duration": 6.2,
+        "error_message": ""
+      },
+      {
+        "name": "Safari - Basic Operations",
+        "status": "failed",
+        "duration": 7.1,
+        "error_message": "Unexpected result for division operation"
+      },
+      {
+        "name": "Edge - Basic Operations",
+        "status": "passed",
+        "duration": 5.9,
+        "error_message": ""
+      }
+    ],
+    "accessibility_tests": [
+      {
+        "name": "Color Contrast",
+        "status": "passed",
+        "duration": 0.8,
+        "error_message": ""
+      },
+      {
+        "name": "Keyboard Navigation",
+        "status": "passed",
+        "duration": 1.2,
+        "error_message": ""
+      },
+      {
+        "name": "Screen Reader Compatibility",
+        "status": "failed",
+        "duration": 2.5,
+        "error_message": "Missing aria-label on clear button"
+      }
+    ],
+    "manual_tests": [
+      {
+        "name": "User Interface Consistency",
+        "status": "passed",
+        "duration": 10,
+        "error_message": ""
+      },
+      {
+        "name": "Responsive Design",
+        "status": "passed",
+        "duration": 15,
+        "error_message": ""
+      },
+      {
+        "name": "Edge Case Handling",
+        "status": "failed",
+        "duration": 20,
+        "error_message": "Calculator freezes on rapid input of large numbers"
+      }
+    ]
+  }
+}
