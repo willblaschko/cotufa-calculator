@@ -20,12 +20,12 @@ To set up the Basic Numeric Calculator on your local machine, follow these steps
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/basic-numeric-calculator.git
+   git clone https://github.com/willblaschko/cotufa-calculator
    ```
 
 2. Navigate to the project directory:
    ```
-   cd basic-numeric-calculator
+   cd cotufa-calculator
    ```
 
 3. Install the dependencies:
